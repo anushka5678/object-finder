@@ -2,6 +2,7 @@ video= "";
 status= "";
 objects= [];
 input="";
+label= objects[i].label;
 function preload(){
    
 }
@@ -27,7 +28,9 @@ function draw(){
             stroke("FF0000");
             rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
         }
+
     }
+   mark if(input=label )
 
 }
 function gotResult(error, results){
